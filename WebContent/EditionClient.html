@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edition Client</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="logoProxiBanque.png">
+	<h1>Vous pouvez modifier les informations du client</h1>
+
+	<form method="post" action="ServletEdition">
+	<fieldset>
+	<p/>
+	Entrer le numéro d'identifiant du client :  <input type = "text" name = "idClient">
+	<p/>
+		Choisissez les informations à modifier
+	<p/>
+	Nom.......... : <input type = "text" name = "nom"><br>
+	Prénom..... : <input type = "text" name = "prenom"><br>
+	Rue........... : <input type = "text" name = "rue"><br>
+	CodePostal : <input type = "text" name = "codePostal"><br>
+	Ville........... : <input type = "text" name = "ville"><br>
+	Numéro Tel : <input type = "text" name = "numeroTel"><br>
+	E-mail........ : <input type = "text" name = "mail"><br>
+	<p/>
+	<input type="submit" value="Envoyer">
+	</fieldset>
+	</form>
+
+
+
+</body>
+</html>
